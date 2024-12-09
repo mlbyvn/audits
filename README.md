@@ -12,7 +12,7 @@ The goal of this repository is to:
 
 - **[Example Audits](./example-audits):**  
   Contains audits of contracts designed with intentional vulnerabilities for educational purposes.  
-  - [TSwap Audit](./example-audits/tswap-audit.md): A fork of Uniswap V1 with added vulnerabilities.  
+  - [TSwap Audit](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of Uniswap V1 with added vulnerabilities.  
 
 
 - **[Audits](./real-audits):**  
