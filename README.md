@@ -15,7 +15,7 @@ The goal of this repository is to:
   - [TSwap Audit](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of Uniswap V1 with added vulnerabilities.  
 
 
-- **[Audits](./competitive-audits):**  
+- **[Competitive Audits](./competitive-audits):**  
 Will be added soon.
 
 ## Tools and Techniques
