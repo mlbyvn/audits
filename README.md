@@ -16,7 +16,8 @@ The goal of this repository is to:
 
 
 - **[Competitive Audits](./competitive-audits):**  
-Will be added soon.
+  Reports of competitive audits from [Cyfrin CodeHawks](https://codehawks.cyfrin.io/) and other audit marketplaces.
+  - [Alchemix Transmuter](): The strategy utilises Yearn V3 strategy template & builds on top of Alchemix providing an automated strategy which allows users to earn yield on Alchemix tokens (primiarly alETH) by taking advantage of potential       depegs. The strategy deposits to Alchemix's transmuter contract, an external keeper can claim alETH for WETH & execute a swap back to alETH at a premium to take advantage of any depeg of alETH vs WETH.
 
 ## Tools and Techniques
 
