@@ -11,8 +11,9 @@ The goal of this repository is to:
 ## Repository Structure
 
 - **[Example Audits](./example-audits):**  
-  Contains audits of contracts designed with intentional vulnerabilities for educational purposes.  
-  - [TSwap Audit](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of Uniswap V1 with added vulnerabilities.  
+  Contains audits of mock protocols designed with intentional vulnerabilities.  
+  - [TSwap Audit](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of Uniswap V1 with added vulnerabilities.
+  - [ThunderLoan](): A flash loan protocol based on [Aave](https://aave.com/docs) and [Compound](https://docs.compound.finance/).
 
 
 - **[Competitive Audits](./competitive-audits):**  
