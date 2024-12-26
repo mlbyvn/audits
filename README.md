@@ -12,7 +12,7 @@ The goal of this repository is to:
 
 - **[Example Audits](./example-audits):**  
   Contains audits of mock protocols designed with intentional vulnerabilities.  
-  - [TSwap Audit](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of Uniswap V1 with added vulnerabilities.
+  - [TSwap](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of Uniswap V1 with added vulnerabilities.
   - [ThunderLoan](): A flash loan protocol based on [Aave](https://aave.com/docs) and [Compound](https://docs.compound.finance/).
 
 
