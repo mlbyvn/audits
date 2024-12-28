@@ -6,6 +6,8 @@ Welcome to the **Example Audits** repository! This collection will provide detai
 
 - **TSwap Audit:**  
   An audit of TSwap, a deliberately vulnerable Uniswap V1 fork, highlighting typical DEX issues like lack of slippage protection, MEV attacks, business logic issues and more.
+- **ThunderLoan Audit:**
+  ThunderLoan is a decentralized lending protocol inspired by Compound and Aave, implemented using the UUPS proxy pattern. The audit highlights vulnerabilities specific to this architecture,     including Oracle manipulation, storage collisions, and other security risks.
 
 ## Tools and Techniques
 
