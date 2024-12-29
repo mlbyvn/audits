@@ -22,9 +22,13 @@ The goal of this repository is to:
 
 ## Tools and Techniques
 
-The audits in this repository leverage a combination of industry-standard tools and manual techniques, including:  
+- **Preliminaries** Before actually starting auditing the codebase:
+    - Build a graph with contracts and their interactions for large and complex protocols
+    - Check similar protocol history: detected vulnerabilities, audit reports from [Solodit](https://solodit.cyfrin.io/), differences with protocol in scope
+    - Study previous audits (if there are any)
+    - Check used libraries
 - **Static Analysis:** Tools like [Slither](https://github.com/crytic/slither) and [Aderyn](https://github.com/crytic/aderyn).  
-- **Dynamic Testing:** Fuzz testing and invariant-based approaches to detect runtime vulnerabilities.  
+- **Dynamic Testing:** Fuzz testing with [Echidna](https://github.com/crytic/echidna) and [Foundry](https://book.getfoundry.sh/), invariant-based approaches to detect runtime vulnerabilities.  
 - **Manual Review:** Identifying nuanced logic errors and ensuring adherence to best practices.
 
 ## Useful resources
