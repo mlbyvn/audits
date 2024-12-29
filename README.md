@@ -22,14 +22,18 @@ The goal of this repository is to:
 
 ## Tools and Techniques
 
-- **Preliminaries** Before actually starting auditing the codebase:
-    - Build a graph with contracts and their interactions for large and complex protocols
-    - Check similar protocol history: detected vulnerabilities, audit reports from [Solodit](https://solodit.cyfrin.io/), differences with protocol in scope
-    - Study previous audits (if there are any)
-    - Check used libraries
+- **Preliminary Steps Before Auditing the Codebase** 
+    1. Map Contract Interactions
+       - Construct a detailed interaction graph for contracts, particularly in large and complex protocols. This visualization helps identify key dependencies and potential high-risk points in the architecture.
+    2. Analyze Similar Protocols
+       - Research the history of comparable protocols to uncover previously identified vulnerabilities.
+       - Review audit reports from platforms like [Solodit](https://solodit.cyfrin.io/) for insights and lessons learned.
+       - Compare the protocol in scope with its counterparts to pinpoint differences that might introduce new risks.
+    3. Review Past Audits (if applicable)
+       - Examine previous audit reports to understand the historical context, addressed issues, and remaining areas of concern.
+    4. Evaluate External Dependencies
+       - Scrutinize the libraries and frameworks used by the protocol for known vulnerabilities or unverified code. Ensure dependencies are up to date and trusted.
 - **Static Analysis:** Tools like [Slither](https://github.com/crytic/slither) and [Aderyn](https://github.com/crytic/aderyn).  
 - **Dynamic Testing:** Fuzz testing with [Echidna](https://github.com/crytic/echidna) and [Foundry](https://book.getfoundry.sh/), invariant-based approaches to detect runtime vulnerabilities.  
 - **Manual Review:** Identifying nuanced logic errors and ensuring adherence to best practices.
-
-## Useful resources
 
