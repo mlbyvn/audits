@@ -14,6 +14,7 @@ The goal of this repository is to:
   Contains audits of mock protocols designed with intentional vulnerabilities.  
   - [TSwap](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of [Uniswap V1](https://docs.uniswap.org/contracts/v1/overview).
   - [ThunderLoan](https://github.com/mlbyvn/audits/tree/main/example-audits/thunderloan): A flash loan protocol based on [Aave](https://aave.com/docs) and [Compound](https://docs.compound.finance/).
+  - [Boss Bridge](): a bridge protocol to move ERC20 tokens from L1 to L2.
 
 
 - **[Competitive Audits](./competitive-audits):**  
