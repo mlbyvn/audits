@@ -8,15 +8,5 @@ Welcome to the **Example Audits** repository! This collection will provide detai
   An audit of TSwap, a deliberately vulnerable Uniswap V1 fork, highlighting typical DEX issues like lack of slippage protection, MEV attacks, business logic issues and more.
 - **ThunderLoan Audit:**
   ThunderLoan is a decentralized lending protocol inspired by Compound and Aave, implemented using the UUPS proxy pattern. The audit highlights vulnerabilities specific to this architecture,     including Oracle manipulation, storage collisions, and other security risks.
-
-## Tools and Techniques
-
-The audits leverage the following tools and approaches:  
-- **Static Analysis:** Using tools like [Slither](https://github.com/crytic/slither) and [Aderyn](https://github.com/Cyfrin/aderyn) to identify security issues.  
-- **Dynamic Testing:** Applying invariant testing and fuzzing to uncover runtime vulnerabilities.  
-- **Manual Code Review:** Ensuring business logic correctness and uncovering edge-case flaws.
-
-## Contributions
-
-Contributions are welcome! Feel free to suggest improvements to the existing reports.
+- **Boss Bridge:** a bridge protocol that is intended to transfer ERC20 tokens from L1 to L2, highlighting such vulnerabilities as replay attacks, lack of parameter validation and unsupported opcodes. 
 
