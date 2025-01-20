@@ -1,0 +1,38 @@
+INFO:Detectors:
+StrategyArb.setRouter(address)._router (src/StrategyArb.sol#42) lacks a zero-check on :
+                - router = _router (src/StrategyArb.sol#43)
+StrategyOp.setRouter(address)._router (src/StrategyOp.sol#48) lacks a zero-check on :
+                - router = _router (src/StrategyOp.sol#49)
+TokenAdapterMock.constructor(address)._token (src/mock/TokenAdapterMock.sol#18) lacks a zero-check on :
+                - token = _token (src/mock/TokenAdapterMock.sol#19)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-zero-address-validation
+INFO:Detectors:
+Version constraint ^0.8.13 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - VerbatimInvalidDeduplication
+        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
+        - MissingSideEffectsOnSelectorAccess
+        - StorageWriteRemovalBeforeConditionalTermination
+        - AbiReencodingHeadOverflowWithStaticArrayCleanup
+        - DirtyBytesArrayToStorage
+        - InlineAssemblyMemorySideEffects
+        - DataLocationChangeInInternalOverride
+        - NestedCalldataArrayAbiReencodingSizeValidation.
+It is used by:
+        - ^0.8.13 (src/mock/TokenAdapterMock.sol#1)
+        - ^0.8.13 (src/mock/YIeldTokenMock.sol#1)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+INFO:Detectors:
+StrategyMainnet.useOracle (src/StrategyMainnet.sol#17) should be constant 
+YieldTokenMock.totalDeposited (src/mock/YIeldTokenMock.sol#12) should be constant 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-constant
+INFO:Detectors:
+StrategyArb.transmuter (src/StrategyArb.sol#14) should be immutable 
+StrategyArb.underlying (src/StrategyArb.sol#16) should be immutable 
+StrategyMainnet.transmuter (src/StrategyMainnet.sol#14) should be immutable 
+StrategyMainnet.underlying (src/StrategyMainnet.sol#16) should be immutable 
+StrategyOp.transmuter (src/StrategyOp.sol#14) should be immutable 
+StrategyOp.underlying (src/StrategyOp.sol#16) should be immutable 
+TokenAdapterMock.token (src/mock/TokenAdapterMock.sol#15) should be immutable 
+YieldTokenMock.underlying (src/mock/YIeldTokenMock.sol#11) should be immutable 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-immutable
+INFO:Slither:. analyzed (33 contracts with 91 detectors), 17 result(s) found
