@@ -24,19 +24,15 @@ The audit process leveraged the following tools and methodologies:
 
 ### 2. **[Aderyn](https://github.com/Cyfrin/aderyn)**  
 
-### 3. **Invariant Testing**  
-Custom-built invariant tests were employed to verify the correctness and stability of the contract's core functionalities. These tests demonstrated potential exploitation scenarios and vulnerabilities in the TSwap implementation under unexpected conditions.
-
-### 4. **Manual Reviev**
-In addition to automated tools and testing, a comprehensive manual review of the TSwap smart contracts was conducted. This process involved carefully examining the code to identify potential vulnerabilities, logic flaws, and areas where the implementation deviated from best practices.
+### 3. **Manual Reviev**
+In addition to automated tools and testing, a comprehensive manual review of the Alchemix Transmuter smart contracts was conducted. This process involved carefully examining the code to identify potential vulnerabilities, logic flaws, and areas where the implementation deviated from best practices.
 
 ---
 
 **Disclaimer:**  
-The vulnerabilities identified in TSwap are introduced intentially. This repository is not intended for production use.
+I as security researcher make all effort to find as many vulnerabilities in the code in the given time period,
+but hold no responsibilities for the findings provided in this repo. A security audit is not an
+endorsement of the underlying business or product. The audit was time-boxed and the review of the code
+was solely on the security aspects of the Solidity implementation of the contracts. In order to ckeck other findings (if any), wisit the audit page on [Cyftin CodeHawks](https://codehawks.cyfrin.io/c/2024-12-alchemix/submissions/?filterCommunityJudgingDecision=%5B0%2C100%5D&filterCommunityJudgingMinVotes=0&filterDone=%7B%22value%22%3A%22all%22%2C%22label%22%3A%22-%22%7D&filterSelectedForReport=%7B%22value%22%3A%22all%22%2C%22label%22%3A%22-%22%7D&filterSeverity=%5B%7B%22value%22%3A%22high%22%2C%22label%22%3A%22High%22%2C%22disabled%22%3Afalse%7D%2C%7B%22value%22%3A%22medium%22%2C%22label%22%3A%22Medium%22%2C%22disabled%22%3Afalse%7D%2C%7B%22value%22%3A%22low%22%2C%22label%22%3A%22Low%22%2C%22disabled%22%3Afalse%7D%2C%7B%22value%22%3A%22unknown%22%2C%22label%22%3A%22Unknown%22%2C%22disabled%22%3Afalse%7D%5D&filterTags=%255B%255D&filterValidated=%7B%22value%22%3A%22all%22%2C%22label%22%3A%22All%22%7D&page=1&search=)
 
----
 
-## Getting started 
-
-To run invariant tests just add "invariant" and "mocks" folders into the "test" folder of the foundry project in [cyfrin repo](https://github.com/Cyfrin/5-t-swap-audit).
