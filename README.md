@@ -37,6 +37,7 @@ The goal of this repository is to:
     4. Evaluate External Dependencies
        - Examine the libraries and frameworks used by the protocol for known vulnerabilities or unverified code. Ensure dependencies are up to date and trusted.
 - **Static Analysis:** Tools like [Slither](https://github.com/crytic/slither) and [Aderyn](https://github.com/crytic/aderyn).  
-- **Dynamic Testing:** Fuzz testing with [Echidna](https://github.com/crytic/echidna) and [Foundry](https://book.getfoundry.sh/), invariant-based approaches to detect runtime vulnerabilities.  
+- **Dynamic Testing:** Fuzz testing with [Echidna](https://github.com/crytic/echidna) and [Foundry](https://book.getfoundry.sh/), invariant-based approaches to detect runtime vulnerabilities.
+- **Symbolic execution** Use tools like [Halmos](https://github.com/a16z/halmos) and [Certora Prover](https://www.certora.com/prover) where fuzzing may fail.
 - **Manual Review:** Identifying nuanced logic errors and ensuring adherence to best practices. Using [Solodit checklist](https://solodit.cyfrin.io/checklist) for the initial review.
 
