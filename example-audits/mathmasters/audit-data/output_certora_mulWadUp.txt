@@ -1,0 +1,103 @@
+Output:
+[INFO]: Download - 7.22.2/emv-7.22.2.jar
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Download - 7.22.2/tac_optimizer-7.22.2
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Download - Gimli-DWARF-JSONDump
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Download - uploadFiles/4829620/c656a3ee6b6e4333ab77ee823d7bc084.zip
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Primary contract name: HarnessMulWadUpCertora
+[INFO]: cache folder is empty
+[INFO]: found 0 cache files
+[INFO]: Command: java -Xmx31500m -XX:+UseParallelGC -XX:MaxHeapFreeRatio=10 -XX:MinHeapFreeRatio=5 -XX:G1PeriodicGCInterval=15 -XX:NewRatio=5 -XX:+CrashOnOutOfMemoryError -XX:ErrorFile=/home/appuser/code/java_error%p.log -DoutputUrl=outputs/4829620/output_c656a3ee6b6e4333ab77ee823d7bc084/ -DjobId=c656a3ee6b6e4333ab77ee823d7bc084 -DuserId=4829620 -jar /home/appuser/prover/emv.jar -cache 2f29c0c64c9ed30d52bfecf5451058fe8ea1720050697a12d29c7ea2f88aa151-optimisticTrue-iterNone-None--certora-cli-7.22.2 -assumeUnwindCond -ruleSanityChecks basic -globalTimeout 7200 -globalTimeout 7200
+[INFO]: Overcommit Memory Value: 1 
+Start Fri Jan 31 18:48:05 GMT 2025
+Start Fri Jan 31 18:48:05 GMT 2025
+The scene contains 20 contracts:
+HarnessMulWadUpCertora : 0xce4604a0000000000000000000000003,
+ecrecover : 0x1,
+sha256 : 0x2,
+ripemd160 : 0x3,
+identity : 0x4,
+bigmod : 0x5,
+bn256Add : 0x6,
+bn256ScalarMul : 0x7,
+bn256Pairing : 0x8,
+Precompiled244 : 0xf4,
+Precompiled245 : 0xf5,
+Precompiled246 : 0xf6,
+Precompiled247 : 0xf7,
+Precompiled248 : 0xf8,
+Precompiled249 : 0xf9,
+Precompiled250 : 0xfa,
+Precompiled251 : 0xfb,
+Precompiled252 : 0xfc,
+Precompiled253 : 0xfd,
+Precompiled254 : 0xfe
+Running initial transformations
+Has CVL checks.
+Checking CVL certora/MulWadUp.spec for contract HarnessMulWadUpCertora
+Unrolling loops 1 time, unwinding condition is assumed
+Checking rule envfreeFuncsStaticCheck (2 out of 2)...
+Checking rule symEx_testMulWadUp (1 out of 2)...
+Result for envfreeFuncsStaticCheck: envfreeFuncsStaticCheck: mulWadUp(uint256,uint256): SUCCESS
+Starting to run on rule symEx_testMulWadUp
+Total time for symEx_testMulWadUp: 0 seconds ; Split time: 0 seconds ; Number of problems: 1 ; Solver time : 0 seconds
+Violated: symEx_testMulWadUp
+symEx_testMulWadUp: A property is violated
+received `signalSkip` for rule symEx_testMulWadUp-rule_not_vacuous
+Result for symEx_testMulWadUp: symEx_testMulWadUp: FAIL: result == assert_uint256(expected) - certora/MulWadUp.spec line 16
+Results for envfreeFuncsStaticCheck:
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+|Rule name                               |Verified     |Time (sec)|Description                                                 |Local vars                                        |
+|----------------------------------------|-------------|----------|------------------------------------------------------------|--------------------------------------------------|
+|mulWadUp(uint256,uint256)               |Not violated |0         |                                                            |no local variables                                |
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+Results for all:
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+|Rule name                               |Verified     |Time (sec)|Description                                                 |Local vars                                        |
+|----------------------------------------|-------------|----------|------------------------------------------------------------|--------------------------------------------------|
+|envfreeFuncsStaticCheck                 |Not violated |0         |                                                            |no local variables                                |
+|symEx_testMulWadUp                      |Violated     |1         |Assert message: result == assert_uint256(expected) -        |HarnessMulWadUpCertora=HarnessMulWadUpCertora     |
+|                                        |             |          |certora/MulWadUp.spec line 16                               |(0x2711)                                          |
+|                                        |             |          |                                                            |ecrecover=ecrecover (1)                           |
+|                                        |             |          |                                                            |expected=0xde0b6b3a7640000                        |
+|                                        |             |          |                                                            |identity=identity (4)                             |
+|                                        |             |          |                                                            |result=0xde0b6b3a7640001                          |
+|                                        |             |          |                                                            |sha256=sha256 (2)                                 |
+|                                        |             |          |                                                            |x=0xde0b6b3a7640000                               |
+|                                        |             |          |                                                            |y=0xde0b6b3a7640000                               |
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+Failures summary:
+Failed on symEx_testMulWadUp:
+Assert message: result == assert_uint256(expected) - certora/MulWadUp.spec line 16
+Done 0m
+Done 0m
+Event reporter: all events were sent without errors
+[INFO]: Process returned with 100
+[INFO]: updated '2f29c0c64c9ed30d52bfecf5451058fe8ea1720050697a12d29c7ea2f88aa151-optimisticTrue-iterNone-None--certora-cli-7.22.2' cache
+
+Finished verification request
+ERROR: Prover found violations:
+
+[rule] symEx_testMulWadUp: FAIL
+report url: https://prover.certora.com/output/4829620/c656a3ee6b6e4333ab77ee823d7bc084?anonymousKey=3012df20472502f12d132364f55f5bc44cfc7788
+
+Violations were found

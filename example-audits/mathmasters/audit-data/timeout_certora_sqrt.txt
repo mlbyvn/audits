@@ -1,0 +1,113 @@
+Output:
+[INFO]: Download - 7.22.2/emv-7.22.2.jar
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Download - 7.22.2/tac_optimizer-7.22.2
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Download - Gimli-DWARF-JSONDump
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Download - uploadFiles/4829620/e772c0662e864a3393db2aee2dae1450.zip
+INFO:botocore.httpchecksum:Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[INFO]: Download finished
+[INFO]: Primary contract name: HarnessCertora
+[INFO]: cache folder is empty
+[INFO]: found 0 cache files
+[INFO]: Command: java -Xmx31500m -XX:+UseParallelGC -XX:MaxHeapFreeRatio=10 -XX:MinHeapFreeRatio=5 -XX:G1PeriodicGCInterval=15 -XX:NewRatio=5 -XX:+CrashOnOutOfMemoryError -XX:ErrorFile=/home/appuser/code/java_error%p.log -DoutputUrl=outputs/4829620/output_e772c0662e864a3393db2aee2dae1450/ -DjobId=e772c0662e864a3393db2aee2dae1450 -DuserId=4829620 -jar /home/appuser/prover/emv.jar -cache 56722372360d4872f53fbb4d9c7dbac6311c6303c93960747005103f90c11c86-optimisticFalse-iterNone-None--certora-cli-7.22.2 -ruleSanityChecks basic -globalTimeout 7200 -globalTimeout 7200
+[INFO]: Overcommit Memory Value: 1 
+Start Sat Feb 01 10:56:31 GMT 2025
+Start Sat Feb 01 10:56:31 GMT 2025
+The scene contains 20 contracts:
+HarnessCertora : 0xce4604a0000000000000000000000003,
+ecrecover : 0x1,
+sha256 : 0x2,
+ripemd160 : 0x3,
+identity : 0x4,
+bigmod : 0x5,
+bn256Add : 0x6,
+bn256ScalarMul : 0x7,
+bn256Pairing : 0x8,
+Precompiled244 : 0xf4,
+Precompiled245 : 0xf5,
+Precompiled246 : 0xf6,
+Precompiled247 : 0xf7,
+Precompiled248 : 0xf8,
+Precompiled249 : 0xf9,
+Precompiled250 : 0xfa,
+Precompiled251 : 0xfb,
+Precompiled252 : 0xfc,
+Precompiled253 : 0xfd,
+Precompiled254 : 0xfe
+Running initial transformations
+Has CVL checks.
+Checking CVL certora/Sqrt.spec for contract HarnessCertora
+Unrolling loops 1 time, unwinding condition is asserted
+Checking rule envfreeFuncsStaticCheck (3 out of 3)...
+Checking rule testSqrtAgainstUni (1 out of 3)...
+Checking rule testSqrtAgainstSolmate (2 out of 3)...
+Result for envfreeFuncsStaticCheck: envfreeFuncsStaticCheck: mathMastersSqrt(uint256): SUCCESS
+solmateSqrt(uint256): SUCCESS
+uniSqrt(uint256): SUCCESS
+Starting to run on rule testSqrtAgainstSolmate
+Starting to run on rule testSqrtAgainstUni
+Ping 1m - Processed 1/3 (33%) rules. 4 tasks complete, 2 pending.
+Ping 2m - Processed 1/3 (33%) rules. 4 tasks complete, 2 pending.
+Ping 3m - Processed 1/3 (33%) rules. 4 tasks complete, 2 pending.
+Ping 4m - Processed 1/3 (33%) rules. 4 tasks complete, 2 pending.
+Ping 5m - Processed 1/3 (33%) rules. 4 tasks complete, 2 pending.
+Total time for testSqrtAgainstSolmate: 303 seconds ; Split time: 0 seconds ; Number of problems: 1 ; Solver time : 303 seconds
+testSqrtAgainstSolmate: Solver timed out
+received `signalSkip` for rule testSqrtAgainstSolmate-rule_not_vacuous
+Result for testSqrtAgainstSolmate: testSqrtAgainstSolmate: TIMEOUT
+Total time for testSqrtAgainstUni: 311 seconds ; Split time: 0 seconds ; Number of problems: 5 ; Solver time : 309 seconds
+testSqrtAgainstUni: Solver timed out
+received `signalSkip` for rule testSqrtAgainstUni-rule_not_vacuous
+Result for testSqrtAgainstUni: testSqrtAgainstUni: TIMEOUT
+Results for envfreeFuncsStaticCheck:
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+|Rule name                               |Verified     |Time (sec)|Description                                                 |Local vars                                        |
+|----------------------------------------|-------------|----------|------------------------------------------------------------|--------------------------------------------------|
+|mathMastersSqrt(uint256)                |Not violated |0         |                                                            |no local variables                                |
+|solmateSqrt(uint256)                    |Not violated |0         |                                                            |no local variables                                |
+|uniSqrt(uint256)                        |Not violated |0         |                                                            |no local variables                                |
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+Results for all:
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+|Rule name                               |Verified     |Time (sec)|Description                                                 |Local vars                                        |
+|----------------------------------------|-------------|----------|------------------------------------------------------------|--------------------------------------------------|
+|envfreeFuncsStaticCheck                 |Not violated |0         |                                                            |no local variables                                |
+|testSqrtAgainstSolmate                  |Timeout      |304       |                                                            |no local variables                                |
+|testSqrtAgainstUni                      |Timeout      |312       |                                                            |no local variables                                |
+*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+Failures summary:
+Failed on testSqrtAgainstSolmate:
+TIMEOUT
+Failed on testSqrtAgainstUni:
+TIMEOUT
+Done 5m
+Done 5m
+Event reporter: all events were sent without errors
+[INFO]: Process returned with 100
+[INFO]: updated '56722372360d4872f53fbb4d9c7dbac6311c6303c93960747005103f90c11c86-optimisticFalse-iterNone-None--certora-cli-7.22.2' cache
+
+Finished verification request
+ERROR: Prover found violations:
+
+[rule] testSqrtAgainstSolmate: TIMEOUT
+[rule] testSqrtAgainstUni: TIMEOUT
+report url: https://prover.certora.com/output/4829620/e772c0662e864a3393db2aee2dae1450?anonymousKey=6817ca050f4536f533e2a8a050a3e85e06eb7f9a
+
+Violations were found
