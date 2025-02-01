@@ -14,13 +14,13 @@ The goal of this repository is to:
   Contains audits of mock protocols designed with intentional vulnerabilities.  
   - [TSwap](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of [Uniswap V1](https://docs.uniswap.org/contracts/v1/overview).
   - [ThunderLoan](https://github.com/mlbyvn/audits/tree/main/example-audits/thunderloan): A flash loan protocol based on [Aave](https://aave.com/docs) and [Compound](https://docs.compound.finance/).
-  - [Boss Bridge](https://github.com/mlbyvn/audits/tree/main/example-audits/boss-bridge): a bridge protocol to move ERC20 tokens from L1 to L2.
+  - [Boss Bridge](https://github.com/mlbyvn/audits/tree/main/example-audits/boss-bridge): A bridge protocol to move ERC20 tokens from L1 to L2.
+  - [MathMasters](https://github.com/mlbyvn/audits/tree/main/example-audits/mathmasters): A fixed point math library inspired by Solmate's [FixedPointMathLib](https://github.com/transmissions11/solmate/blob/main/src/utils/FixedPointMathLib.sol)
 
 
 - **[Competitive Audits](./competitive-audits):**  
   Reports of competitive audits from [Cyfrin CodeHawks](https://codehawks.cyfrin.io/) and other audit marketplaces.
   - [Alchemix Transmuter](https://github.com/mlbyvn/audits/tree/main/competitive-audits/2024-12-alchemix): The strategy utilises Yearn V3 strategy template & builds on top of Alchemix providing an automated strategy which allows users to earn yield on Alchemix tokens (primiarly alETH) by taking advantage of potential       depegs. The strategy deposits to Alchemix's transmuter contract, an external keeper can claim alETH for WETH & execute a swap back to alETH at a premium to take advantage of any depeg of alETH vs WETH.
-  - [Zaros V2](https://github.com/mlbyvn/audits/tree/main/competitive-audits/2025-01-zaros): Zaros is a Perpetuals DEX powered by Boosted (Re)Staking Vaults. It seeks to maximize LPs yield generation, while offering a top-notch trading experience on Arbitrum (and Monad in the future).
   - [Aave DIVA Wrapper](https://github.com/mlbyvn/audits/tree/main/competitive-audits/2025-01-diva): AaveDIVAWrapper is a smart contract that acts as a connector between DIVA Protocol and Aave V3, allowing assets deposited into DIVA Protocol pools to generate yield by supplying them on Aave V3.
 
 ## Tools and Techniques
