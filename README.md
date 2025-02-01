@@ -15,7 +15,7 @@ The goal of this repository is to:
   - [TSwap](https://github.com/mlbyvn/audits/tree/main/example-audits/tswap): A fork of [Uniswap V1](https://docs.uniswap.org/contracts/v1/overview).
   - [ThunderLoan](https://github.com/mlbyvn/audits/tree/main/example-audits/thunderloan): A flash loan protocol based on [Aave](https://aave.com/docs) and [Compound](https://docs.compound.finance/).
   - [Boss Bridge](https://github.com/mlbyvn/audits/tree/main/example-audits/boss-bridge): A bridge protocol to move ERC20 tokens from L1 to L2.
-  - [MathMasters](https://github.com/mlbyvn/audits/tree/main/example-audits/mathmasters): A fixed point math library inspired by Solmate's [FixedPointMathLib](https://github.com/transmissions11/solmate/blob/main/src/utils/FixedPointMathLib.sol)
+  - [MathMasters](https://github.com/mlbyvn/audits/tree/main/example-audits/mathmasters): A fixed point math library inspired by Solmate's [FixedPointMathLib](https://github.com/transmissions11/solmate/blob/main/src/utils/FixedPointMathLib.sol). Highlights symbolic execution tools like [**Halmos**](https://github.com/a16z/halmos) and [**Certora Prover**](https://www.certora.com/prover).
 
 
 - **[Competitive Audits](./competitive-audits):**  
